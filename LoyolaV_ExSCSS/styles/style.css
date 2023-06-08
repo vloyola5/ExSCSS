@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,400;1,900&display=swap'); 
+
+	
+html {
+	 font-family: 200 1rem/1.5rem 'Poppins', san-serif;
+	 color: #000;
+	 width: 100%;
+	 text-align: center;
+}
+ body {
+	 font-family: 200 1rem/1.5rem 'Poppins', san-serif;
+	 color: #000;
+	 display: flex;
+	 justify-content: center;
+	 width: auto;
+	 height: auto;
+	 margin: 0;
+	 padding: 0;
+}
+ .box {
+	 font-family: 200 1rem/1.5rem 'Poppins', san-serif;
+	 color: #000;
+	 display: flex;
+	 justify-content: center;
+	 width: auto;
+	 height: auto;
+	 position: absolute;
+	 align-items: center;
+	 left: 50%;
+	 top: 50%;
+	 background: linear-gradient(90deg, rgba(248, 248, 248, 0) 0%, #f9f8fb 50%), #fff;
+	 border: 1px solid #efefef;
+	 border-radius: 0.25rem;
+	 padding: 1rem;
+	 transform: translate(-50%, -50%);
+}
+ .maincontent {
+	 padding: 20px;
+	 display: flex;
+	 justify-content: center;
+	 flex-flow: column;
+	 width: auto;
+	 text-align: left;
+	 font-family: 'Poppins', sans-serif;
+}
+ .maincontent h2 {
+	 font-size: 1.5rem;
+	 font-weight: 600;
+}
+ .maincontent h3 {
+	 font-size: 1rem;
+	 font-weight: 400;
+}
+ .button {
+	 text-align: center;
+	 background-color: #6638f0;
+	 border: none;
+	 color: #fff;
+	 padding: 1rem 1rem;
+	 text-decoration: none;
+	 display: inline-block;
+	 font-size: 1rem;
+	 margin: 0.25rem;
+	 transition-duration: 0.4s;
+	 cursor: pointer;
+}
+ .button a {
+	 margin-left: 1rem;
+	 text-decoration: none;
+	 color: #6638f0;
+}
+
+#open {
+	width: 35%;
+}
+
+ .modal-container {
+	 display: flex;
+	 justify-content: center;
+	 width: auto;
+	 height: auto;
+	 border-radius: 0.25rem;
+	 overflow: hidden;
+	 margin: auto;
+	 font-family: 'Poppins', sans-serif;
+	 position: fixed;
+	 transform: scale(0);
+	 top: 0;
+	 bottom: 0;
+	 left: 0;
+	 right: 0;
+	 transition: 4ms;
+}
+ .modal-container p {
+	 text-align: left;
+}
+ .gradient-effect {
+	 width: 24rem;
+	 background: #6638f0;
+	 background-image: linear-gradient(154deg, #6638f0 0%, skyblue 100%);
+	 height: 100%;
+}
+ .popup {
+	 position: relative;
+	 background: #fafafa;
+	 background: linear-gradient(90deg, rgba(250, 250, 250, 1) 0%, rgba(248, 248, 250, 1) 80%);
+	 padding: 0.563rem 0.875rem;
+	 font-size: 1rem;
+	 font-weight: 600;
+	 border: none;
+	 width: 19.563rem;
+	 text-align: left;
+}
+ .popup h2 {
+	 font-size: 1.5rem;
+	 font-weight: 600;
+}
+ .popup p {
+	 font-size: 1rem;
+	 font-weight: 400;
+}
+ .popup-button {
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+}
+ a {
+	 text-decoration: none;
+}
+ #close {
+	 position: absolute;
+	 top: 1rem;
+	 right: 1rem;
+}
+ .debug {
+	 border: 2px solid;
+}
+ 
